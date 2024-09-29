@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(135deg, #152956 20%, #b06e49 100%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #9dd0d7; /* Solid white background for contrast */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1c2731; /* Dark blue-gray for improved readability */
+  }
+  
+  h2 {
+    color: #182129; /* Slightly lighter blue-gray for visual hierarchy */
+    margin-top: 20px;
+    font-size: 1.6em;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #2c3e50; /* Consistent dark color for labels */
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #4a8690; /* Light gray for borders */
+    font-size: 16px;
+    background-color: #f8f9fa; /* Very light gray background for inputs */
+    color: #010202; /* Dark text color for readability */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #354bae; /* Vibrant coral for primary actions */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #98339d; /* Darker coral on hover */
+  }
+  
+  .resume {
+    margin-top: 30px;
+    text-align: center;
+    background-color:white; /* White background for the resume */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #043d49; /* border for the resume */
+  }
+  
+  .resume img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #043d49; /* border around the image */
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+  
+    button {
+        font-size: 14px;
+    }
+  }
